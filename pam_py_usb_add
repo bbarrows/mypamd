@@ -1,4 +1,4 @@
-#!/usr/local/bin/python
+#!/usr/bin/python
 import glob,sys,socket,os,random,hashlib
 
 hash = random.getrandbits(128)

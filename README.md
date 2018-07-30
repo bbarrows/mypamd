@@ -15,6 +15,13 @@ View the documentation for a better undersanding of what the installer actually 
 1. Compile pusb.c:
 ```bash
 gcc -fPIC -DPIC -shared -rdynamic -o pusb.so pusb.c
+gcc -fPIC -DPIC -shared -rdynamic -o pfail.so pfail.c -framework ApplicationServices
+
+gcc -fPIC -DPIC -shared -rdynamic -o pfail.so pfail.c 
+
+gcc -fPIC -DPIC -shared -rdynamic -o pkeydown.so pkeydown.c 
+
+
 ```
 2. Move pusb.so to /usr/lib/pam
 3. Then add into /etc/pam.d/ conf files using PAM syntax
