@@ -1,3 +1,7 @@
+# This repo is the pam_py_usb repo plus some random files I wrote (brad barrows).
+The get key one is a demo I wrote to test out my own pamd implementation.
+To do what I want I would need more Mac OS programming foo though and have another project I want to finish
+
 # pam_py_usb
 # DO NOT USE
 **This is a program DESIGNED FOR OS X**
